@@ -40,8 +40,8 @@
 #define USE_TOYBOX_ANDROID_SCHEDPOLICY(...) __VA_ARGS__
 #define CFG_TOYBOX_PEDANTIC_ARGS 0
 #define USE_TOYBOX_PEDANTIC_ARGS(...)
-#define CFG_TOYBOX_SELINUX 1
-#define USE_TOYBOX_SELINUX(...) __VA_ARGS__
+#define CFG_TOYBOX_SELINUX 0
+#define USE_TOYBOX_SELINUX(...)
 #define CFG_TOYBOX_SHADOW 0
 #define USE_TOYBOX_SHADOW(...)
 #define CFG_TOYBOX_SMACK 0
@@ -96,8 +96,8 @@
 #define USE_CD(...)
 #define CFG_CHATTR 1
 #define USE_CHATTR(...) __VA_ARGS__
-#define CFG_CHCON 1
-#define USE_CHCON(...) __VA_ARGS__
+#define CFG_CHCON 0
+#define USE_CHCON(...)
 #define CFG_CHGRP 1
 #define USE_CHGRP(...) __VA_ARGS__
 #define CFG_CHMOD 1
@@ -234,8 +234,8 @@
 #define USE_FTPPUT(...)
 #define CFG_GETCONF 1
 #define USE_GETCONF(...) __VA_ARGS__
-#define CFG_GETENFORCE 1
-#define USE_GETENFORCE(...) __VA_ARGS__
+#define CFG_GETENFORCE 0
+#define USE_GETENFORCE(...)
 #define CFG_GETFATTR 1
 #define USE_GETFATTR(...) __VA_ARGS__
 #define CFG_GETOPT 1
@@ -340,8 +340,8 @@
 #define USE_LINUX32(...)
 #define CFG_LN 1
 #define USE_LN(...) __VA_ARGS__
-#define CFG_LOAD_POLICY 1
-#define USE_LOAD_POLICY(...) __VA_ARGS__
+#define CFG_LOAD_POLICY 0
+#define USE_LOAD_POLICY(...)
 #define CFG_LOGGER 0
 #define USE_LOGGER(...)
 #define CFG_LOGIN 0
@@ -506,8 +506,8 @@
 #define USE_RENICE(...) __VA_ARGS__
 #define CFG_RESET 0
 #define USE_RESET(...)
-#define CFG_RESTORECON 1
-#define USE_RESTORECON(...) __VA_ARGS__
+#define CFG_RESTORECON 0
+#define USE_RESTORECON(...)
 #define CFG_REV 1
 #define USE_REV(...) __VA_ARGS__
 #define CFG_RFKILL 1
@@ -522,16 +522,16 @@
 #define USE_ROUTE(...)
 #define CFG_RTCWAKE 1
 #define USE_RTCWAKE(...) __VA_ARGS__
-#define CFG_RUNCON 1
-#define USE_RUNCON(...) __VA_ARGS__
+#define CFG_RUNCON 0
+#define USE_RUNCON(...)
 #define CFG_SED 1
 #define USE_SED(...) __VA_ARGS__
 #define CFG_SENDEVENT 1
 #define USE_SENDEVENT(...) __VA_ARGS__
 #define CFG_SEQ 1
 #define USE_SEQ(...) __VA_ARGS__
-#define CFG_SETENFORCE 1
-#define USE_SETENFORCE(...) __VA_ARGS__
+#define CFG_SETENFORCE 0
+#define USE_SETENFORCE(...)
 #define CFG_SETFATTR 1
 #define USE_SETFATTR(...) __VA_ARGS__
 #define CFG_SETSID 1
