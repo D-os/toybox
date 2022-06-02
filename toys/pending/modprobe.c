@@ -350,7 +350,7 @@ static int rm_mod(char *modules)
 // of flags, and don't need to support loading from stdin.
 static int ins_mod(char *modules, char *flags)
 {
-  int fd = xopenro(modules), rc = syscall(__NR_finit_module, fd, flags, 0);
+  int fd = xopenro(modules), rc = syscall(__NR_finit_module, fd, flags ? flags : "", 0);
 
   xclose(fd);
   return rc;
